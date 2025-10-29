@@ -1,5 +1,5 @@
 """
-Utility functions for Web3 Analytics Bot
+Utility functions for Web3 Analytics Bot 
 """
 
 import json
