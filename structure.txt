@@ -1,0 +1,22 @@
+web3-token-analytics-bot/
+├── README.md
+├── requirements.txt
+├── config.py
+├── main.py
+├── src/
+│   ├── __init__.py
+│   ├── dexscreener_client.py
+│   ├── telegram_bot.py
+│   ├── analytics.py
+│   └── utils.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_dexscreener.py
+│   └── test_analytics.py
+├── data/
+│   └── sample_data.json
+├── docs/
+│   └── API.md
+└── .github/
+    └── workflows/
+        └── python-tests.yml
