@@ -1,6 +1,6 @@
 """
 Configuration settings for Web3 Token Analytics Bot
-"""
+""" 
 
 import os
 from dotenv import load_dotenv
