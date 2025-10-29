@@ -1,0 +1,39 @@
+{
+  "sample_response": {
+    "pairs": [
+      {
+        "chainId": "ethereum",
+        "dexId": "uniswap",
+        "pairAddress": "0x123456789...",
+        "baseToken": {
+          "address": "0xabc...",
+          "symbol": "NEWTOKEN",
+          "name": "New Token"
+        },
+        "quoteToken": {
+          "symbol": "ETH"
+        },
+        "priceUsd": "0.000123",
+        "volume": {
+          "h24": "1500000.45"
+        },
+        "priceChange": {
+          "h24": "25.5"
+        },
+        "liquidity": {
+          "usd": "5000000"
+        },
+        "fdv": "12300000",
+        "marketCap": "10000000",
+        "pairCreatedAt": "2023-12-01T10:30:00Z",
+        "txns": {
+          "h24": {
+            "buys": 150,
+            "sells": 80
+          }
+        },
+        "holders": 2500
+      }
+    ]
+  }
+}
