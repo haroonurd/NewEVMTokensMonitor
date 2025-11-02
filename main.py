@@ -4,7 +4,7 @@ Web3 Token Analytics Bot - Main Entry Point
 """
 
 import asyncio
-import logging
+import logging 
 import argparse
 from src.dexscreener_client import DexScreenerClient
 from src.telegram_bot import TelegramBot
@@ -30,7 +30,7 @@ class Web3AnalyticsBot:
             pairs = await self.dex_client.get_recent_pairs(hours)
             
             if not pairs:
-                logger.warning("No pairs found in the specified timeframe")
+                logger.warning("No pairs found in the specified timeframes")
                 return None
             
             # Perform comprehensive analysis
