@@ -6,7 +6,7 @@ import asyncio
 import logging
 from telegram import Bot, Update
 from telegram.ext import Application, CommandHandler, ContextTypes
-from typing import Dict, List
+from typing import Dict, List 
 from config import *
 
 logger = logging.getLogger(__name__)
